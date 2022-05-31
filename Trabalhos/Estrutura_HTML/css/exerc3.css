@@ -1,0 +1,21 @@
+#quote1{
+    font:bold italic 150% garamond, comic Sans MS, fantasy;
+    text-align:center;
+    color: brown;
+}
+
+#quote2{
+    font:bold italic 150% garamond, comic Sans MS, fantasy;
+    text-align:center;
+    color: #ff00DD;
+}
+#quote3{
+    font:bold italic 150% garamond, comic Sans MS, fantasy;
+    text-align:center;
+    color: brown;
+}
+
+#attribution{
+    font: 80% monospace;
+    text-align: right;
+}

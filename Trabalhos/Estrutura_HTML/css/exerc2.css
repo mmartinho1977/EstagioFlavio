@@ -1,0 +1,15 @@
+nav{
+    background-color: rgb(0, 162, 255);
+    text-align: center;
+}
+
+a{
+    text-decoration-line: none;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    padding: 30px;
+}
