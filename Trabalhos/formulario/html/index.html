@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="../js/cert.js"></script>
+    <script src="../js/email.js"></script>
+    <script src="../js/experienc.js"></script>
+    <script src="../js/hobbies.js"></script>
+    <script src="../js/imagem.js"></script>
+    <script src="../js/linguas.js"></script>
+    <script src="../js/link.js"></script>
+    <script src="../js/morada.js"></script>
+    <script src="../js/nome.js"></script>
+    <script src="../js/skills.js"></script>
+    <script src="../js/sobrenome.js"></script>
+    <script src="../js/summary.js"></script>
+    <script src="../js/telefone.js"></script>   
+</head>
+<body>
+    
+    <div class="homebar">
+        
+       <h1>formulário de currículo</h1>
+       <a href="../html/inicio.html">
+           <div class="voltar"> ⇦Voltar</div>
+        </a>
+    </div>
+    <form   action="curriculo_auto.html">
+        <div class="tudo">
+        <div class="alinhar">
+            <div id="nome">
+                <i class="material-icons prefix">account_circle</i>
+            <label for="nome">Nome:</label>
+            </div>
+            
+            <br>
+            <input type="text" name="nome" id="nome1" size=30 maxlength=12 placeholder="exemplo: flávio " >
+        </div>
+        <br>
+        <br>
+        <div class="alinhar">
+            <div id="sobrenome">
+                <i class="material-icons prefix">account_circle</i>
+            <label for="sobrenome">Sobreome:</label>
+            </div>
+            <br>
+            <input type="text" name="sobrenome" id="sobrenome1" size=30 maxlength=12 placeholder="exemplo: Sousa " >
+        </div>
+        <br>
+        <br>
+        
+        <div class="text-image">
+            <i class="material-icons prefix">account_box</i>
+        insira uma imagem sua:
+    </div>
+        <div class="imagem">            
+            <br>
+        <input type="file" name="arquivos" id="imagem" class="btn-success"  accept="image/png, image/jpeg" multiple/>
+    </div>
+<br>
+<br>
+    <div class="alinhar">
+        <div id="morada">
+            <i class="material-icons prefix">account_balance</i>
+        <label for="morada">Morada:</label>
+        </div>
+        
+        <br>
+        <input type="text" name="morada" id="morada1" size=30 maxlength=50 placeholder="exemplo:Vila verde, rua verde, nº 300 " >
+    </div>
+    <br>
+    <br>
+    <div class="alinhar">
+        <div id="telefone">
+            <i class="material-icons prefix">phone</i>
+            <label for="telefone">Número de Telemóvel:</label>
+        </div>
+        <br>
+        <input type="number" name="telefone" id="telefone1" size=12 maxlength=11 placeholder="exemplo:900 000 000 " >
+    </div>
+    <br>
+    <div class="alinhar">
+        <div id="email">
+            <i class="material-icons prefix">email</i>
+        <label for="email">Email:</label>
+        </div>
+        <br>
+        <input type="email" name="email" id="email1" size=30 maxlength=50 placeholder="exemplo:exemplo@gmail.com " >
+    </div>
+    <br>
+    <div class="alinhar">
+        <div id="link-pessoal">
+            <i class="material-icons prefix">   arrow_drop_down</i>
+        <label for="link-pessoal">linkdln:</label>
+        </div>
+        <br>
+        <input type="text" name="link-pessoal" id="link-pessoal1"  size=30 maxlength=50 placeholder="exemplo:linkdlnz.com/christpon.morgan " >
+        <br>
+        <div class="opcional">
+            opcional*
+        </div>
+    </div>
+    <br>
+    <div class="alinhar">
+        <div id="linguas">
+            <i class="material-icons prefix">assignment_turned_in</i>
+        <label for="linguas">Linguas estudadas:</label>
+        </div>
+        <br>
+        <input type="text" name="linguas" id="linguas1" size=30 maxlength=50 placeholder="exemplo:portgues, ingles, espanhol " >
+        <br>
+        <div class="opcao">
+           
+            coloque virgulas para separar as várias ideias*
+        </div>
+    </div>
+   <br>
+    <div class="alinhar">
+        <div id="hobbies">
+            <i class="material-icons prefix">fitness_center</i>
+        <label for="hobbies">hobbies:</label>
+        </div>
+        <br>
+        <input type="text" name="hobbies" id="hobbies1" size=30 maxlength=50 placeholder="exemplo:futbol, jogar, correr ">
+        <br>
+        <div class="opcao">
+           
+            coloque virgulas para separar as várias ideias*
+        </div>
+    </div>
+    <br>
+    <div class="alinhar">
+        <div id="summary">
+            <i class="material-icons prefix">arrow_drop_down</i>
+        <label for="summary">resumo:</label>
+        </div>
+        <br>
+        <textarea name="summary" id="summary1"  cols="37" rows="5" size=40 maxlength=60  placeholder="... " ></textarea>
+        <br>
+    </div>
+    <br>
+    <div class="alinhar">
+        <div id="skills">
+            <i class="material-icons prefix">brightness_5</i>
+        <label for="skills">destaque de habilidades:</label>
+        </div>
+        <br>
+        <textarea name="skills" id="skills1"  cols="37" rows="3" size=40 maxlength=60  placeholder="exemplo: creativo, sei la,..." ></textarea>
+        <br>
+        <div class="opcao">
+            coloque virgulas para separar as várias ideias*
+            
+        </div>
+    </div> 
+    <div class="alinhar">
+        <div id="experiencia">
+            <i class="material-icons prefix">brightness_5</i>
+        <label for="experiencia">Experiência:</label>
+        </div>
+        <br>
+        <textarea name="experiencia" id="experiencia1"  cols="37" rows="3" size=40 maxlength=60  placeholder="..." ></textarea>
+        <br>
+        <div class="opcao">
+            coloque virgulas para separar as várias ideias*
+        </div>
+    </div> 
+
+    <div class="alinhar">
+        <div id="educacao">
+            <i class="material-icons prefix">account_balance</i>
+        <label for="educacao">Onde estudou:</label>
+        </div>
+        <br>
+        <textarea name="educacao" id="educacao1"  cols="37" rows="3" size=40 maxlength=60  placeholder="exemplo: Epatv ,..." ></textarea>
+        <br>
+  </div> 
+    
+  <div class="alinhar">
+    <div id="cert">
+        <i class="material-icons prefix">assignment_ind</i>
+    <label for="cert">Certeficados:</label>
+    </div>
+    <br>
+    <textarea name="cert" id="cert1"  cols="37" rows="3" size=40 maxlength=60  placeholder="exemplo: Epatv ,..." ></textarea>
+    <br>
+    <div class="btn">
+        
+           <input type="reset" id="limpar" value=Limpar>
+           <button id="enviar" onclick="salvar()">salvar</button>
+        </div>
+        </div> 
+    </div>
+      </form>
+</body>
+</html>

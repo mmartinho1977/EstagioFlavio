@@ -1,0 +1,104 @@
+html{
+    background-image: linear-gradient(to bottom right, rgb(194, 231, 255,80%) 1%, rgb(255, 255, 255)99% );
+    background-repeat:no-repeat;
+    height: 840px;
+}
+
+.centro{
+    width: 600px;
+    height: 600px;
+    background-color:rgba(194, 231, 255, 0.95);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.titulo{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 0px 0px 0px;
+    color: rgb(159, 127, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.titulo2{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(109, 87, 176);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.botao{
+    background-color: rgb(126, 124, 255);
+    width: 160px;
+    height: 50px;
+    border-radius: 10%;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    position:relative;
+    top:20%;
+    left:35%;
+    transition: all 0.5s;
+}
+.botao:hover {
+    transform: scale(1.10);
+    background-color: rgb(82, 79, 255);
+}
+.texto{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.texto_fundo{
+text-align: center;
+top:60%;
+position: relative;
+font-size: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Big Shoulders Display", cursive;
+    height: 100px;
+  }
+  .banner {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+  }
+  .banner .content {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .banner .content h1 {
+    margin: 0;
+    padding: 0; 
+    font-size: 5.5em;
+    text-transform: uppercase;
+    color: #ffff;
+  }
+  .banner .content p {
+    font-size: 1.5em;
+    color: #ffff;
+  }
+  .banner .content img {
+    width: 40px;
+    height: 40px;
+  }
