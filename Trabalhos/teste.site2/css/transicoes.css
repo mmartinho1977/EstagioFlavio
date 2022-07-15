@@ -21,7 +21,7 @@
     height: 65px;
 }
 .nav-lado{
-    width:80px;
+    width:90px;
     height: 92vh;
     background-color: rgba(97, 97, 97, 0.3);
     float: left;
@@ -47,10 +47,7 @@ button{
 }
 
 .direita{
-    width: 95.2%;
-    height: 92vh;
-    float: right;
-    padding: 70px;
+    padding: 90px 60px 90px 130px;
 }
 
 .fundo{

@@ -8,7 +8,7 @@
 }
 
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1643px) {
     *{
         overflow: auto;
     }
@@ -19,20 +19,24 @@
 .nav{
     width: 100%;
     height: 70px;
-    background-color: rgb(128, 128, 128, 30%);
+    background-color: rgb(199, 199, 199);
 }
 
 .nav img{
     padding: 10px 10px 10px 70px;
+    position: relative;
+    left: 20px;
     width: 170px;
     height: 65px;
 }
 
 .nav-lado{
-    width:80px;
-    height: 92vh;
-    background-color: rgba(97, 97, 97, 0.3);
+    width:90px;
+    height: 100%;
+    background-color:rgb(199, 199, 199);
     float: left;
+    position: fixed;
+    top: 0px;
 }
 button{
     border:0;
@@ -42,6 +46,8 @@ button{
 .botoes{
     padding: 20px;
     font-size: 40px;
+    position: relative;
+    top:50px;
 }
 
 #nome-img{
@@ -53,20 +59,18 @@ button{
     position: relative;
     top:-15px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    overflow: hidden;
 
+} 
 .direita{
-    width: 95.2%;
-    height: 92vh;
-    float: right;
-    padding: 70px;
+    padding: 90px 60px 90px 130px;
 }
 
 .fundo{
     justify-content: center;
     background-color: rgba(97, 97, 97, 0.3);
-    width: 100%;
-    height: 75vh;
+    min-width: 300px;
+    padding: 30px 40px 30px 40px;
 }
 #titulo{
     font-size:30px;
@@ -79,6 +83,9 @@ button{
     border-radius: 10px;
     height: 50vh;
     background-color: white;
+    min-width: 260px;
+    margin-top: 10px;
+    height: 450px;
 }
 .organizar-dia{
     justify-content: center;
@@ -105,14 +112,46 @@ button{
 
 #botao{
     position: relative;
-    top:-5px;
+    top:0px;
     width: 100%;
-    height: 25px;
     background-color: rgb(0, 180, 0);
     color: white;
     font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    padding: 5px 70px 5px 76px;
 }
-
+#botao:hover{
+    position: relative;
+    top:0px;
+    width: 100%;
+    background-color: rgb(0, 145, 0);
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    padding: 5px 70px 5px 76px;
+    transition: 0.5s;
+}
+#botao-reservar{   
+     position: relative;
+    top:10px;
+    width: 100%;
+    background-color: rgb(0, 98, 0);
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    padding: 5px 76px 5px 76px;
+}
+#botao-reservar:hover{   
+    position: relative;
+   top:10px;
+   width: 100%;
+   background-color: rgb(0, 64, 0);
+   color: white;
+   font-family: 'Roboto Slab', serif;
+   text-decoration: none;
+   padding: 5px 76px 5px 76px;
+   transition: 0.5s;
+}
 .por-servir{
     background-color: rgb(255, 255, 255);
     color:green;
@@ -122,7 +161,59 @@ button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
     top:-50px;
-    left:1250px;
+
     border:0;
     border:0.5px solid black;
+}
+
+.dias{
+    overflow-x: hidden;
+}
+
+#adquirido{
+    position: relative;
+    left: 1000px;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    background-color: green;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1602px) {
+    #adquirido{
+        left: 900px;
+        transition: 0.5s;
+    }
+}
+@media only screen and (max-width: 1555px) {
+    #adquirido{
+        left: 700px;
+        transition: 0.5s;
+    }
+}
+@media only screen and (max-width: 1405px) {
+    #adquirido{
+        left: 500px;
+        transition: 0.5s;
+    }
+}
+@media only screen and (max-width: 1305px) {
+    #adquirido{
+        left: 300px;
+        transition: 0.5s;
+    }
+}
+@media only screen and (max-width: 1205px) {
+    #adquirido{
+        left: 100px;
+        transition: 0.5s;
+    }
+}
+@media only screen and (max-width: 705px) {
+    #adquirido{
+        left: 00px;
+        transition: 0.5s;
+    }
 }

@@ -27,7 +27,7 @@
     height: 65px;
 }
 .nav-lado{
-    width:80px;
+    width:90px;
     height: 92vh;
     background-color: rgba(97, 97, 97, 0.3);
     float: left;
@@ -50,4 +50,7 @@ button{
     position: relative;
     top:-15px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.direita{
+    padding: 90px 60px 90px 130px;
 }

@@ -55,9 +55,7 @@ button{
 }
 
 .ajuda{
-    width: 95.2%;
-    height: 92vh;
-    float: right;
+        padding: 20px;
 }
 
 .ajuda h1{
@@ -68,11 +66,7 @@ button{
     padding: 0px 0px 0px 100px;
 }
 
-#um{
-    width: 20px;
-    height: 20px;
 
-}
 
 #enviar{
     width:100px;

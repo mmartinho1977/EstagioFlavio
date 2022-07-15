@@ -28,12 +28,13 @@
             home
         </button></div>
         </a>
-        <div class="saldo"><span id="nome-img" class="material-symbols-outlined">
-            account_balance_wallet
-        </span>
-        <div id="saldo">
-        <b>5,55$</b> 
-        </div>
+        <a href="saldo.html">
+            <div class="saldo" style="color:black; text-decoration:"><span id="nome-img" class="material-symbols-outlined">
+              account_balance_wallet
+          </span></a>
+          <div id="saldo">
+          <b>5,55$</b> 
+          </div>
     </div>
         <a href="refeicao.html">
         <div class="marcar-senhas"> <button id="nome-img" class="material-symbols-outlined">
@@ -50,5 +51,6 @@
     </a>
         </div>
       </div>
+      <script> document.getElementById("saldo").textContent=localStorage.getItem("Balance") + "€";</script>
 </body>
 </html>

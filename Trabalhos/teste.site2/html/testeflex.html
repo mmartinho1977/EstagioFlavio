@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style >
+        .flexbox{
+            display: flex;
+        }
+
+        .a{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+        }
+
+        .b{
+            height: 100px;
+            width: 100px;
+            background-color: violet;
+        }
+
+        .grid{
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            grid-gap: 10px;
+            color:white;
+        }
+
+        .cell{
+            background-color: rgb(40, 39, 39);
+            padding: 30px;
+            font-size: 150%;
+        }
+
+        .c{
+            grid-column: 1 / span 2;
+        }
+        .d{
+            grid-column: 3;
+            grid-row: 1 / span 3 ;
+        }
+        .e{
+            grid-row: 2;
+            grid-column: 2;
+        }
+        .f{
+            grid-row: 2;
+            grid-column: 1;
+        }
+        .g{
+            grid-row: 2;
+            grid-column: 2;
+        }
+
+        .h{
+            grid-row: 3;
+            grid-column: 1 /span 2;
+        }
+
+
+        @media only screen and (max-width: 500px) {
+
+            .c{
+                grid-column: 1 / span 3;
+
+            }
+
+            .d{
+                grid-column: 1 / span 3;
+                grid-row: 4;
+            }
+
+            .e{
+                grid-row: 2;
+                grid-column: 1;
+            }
+
+            .f{
+                grid-row: 2;
+                grid-column: 2 / span 2;
+            }
+            .g{
+                grid-row: 3;
+                grid-column: 1;
+            }
+
+            .h{
+                grid-row: 3;
+                grid-column: 2 / span 2;
+            }
+
+
+            
+            
+        }
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <div class="flexbox">
+
+        <div class="a"></div>
+
+        <div class="b"></div>
+       
+    </div>
+
+    <div class="grid">
+
+        <div class="cell c">C</div>
+
+        <div class="cell d">D</div>
+        <div class="cell e">E</div>
+
+        <div class="cell f">F</div>
+        <div class="cell g">G</div>
+
+        <div class="cell h">H</div>
+       
+    </div>
+    
+    
+</body>
+</html>
