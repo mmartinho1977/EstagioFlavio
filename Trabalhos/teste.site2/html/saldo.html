@@ -70,23 +70,23 @@
         
         <div class="todos-botoes">
           <div>
-            <div class="form-check form-switch"  onchange="enableTextarea(this)">
-              <input type="checkbox" id="quatro" name="ajuda" value="" class="form-check-input ms-1">
+            <div class="form-check form-switch">
+              <input type="checkbox" id="quatro" name="ajuda" value="" class="form-check-input ms-1" onclick="enableBalanceButton(this)">
                <label for="quatro" class="form-check-label">MBway
   
  </label>
              </div>
           </div>
           <div class="btn">
-         <button id="btn1"   class="butao-1"  onclick='addBalence("btn1")'>Adicionar 1€ </button>
+         <button id="btn1"   class="butao-1"  onclick='addBalence("btn1")' disabled>Adicionar 1€  </button>
          <br>
-         <button id="btn2"   class="butao-1"  onclick='addBalence("btn2")'>Adicionar 5€ </button>
+         <button id="btn2"   class="butao-1"  onclick='addBalence("btn2")' disabled>Adicionar 5€  </button>
          <br>
-         <button id="btn3"  class="butao-1"  onclick='addBalence("btn3")'>Adicionar 10€ </button>
+         <button id="btn3"   class="butao-1"  onclick='addBalence("btn3")' disabled>Adicionar 10€ </button>
          <br>
-         <button id="btn4"  class="butao-1"  onclick='addBalence("btn4")'>Adicionar 20€ </button>
+         <button id="btn4"   class="butao-1"  onclick='addBalence("btn4")' disabled>Adicionar 20€ </button>
          <br>
-         <button id="btn5"   class="butao-1"  onclick='addBalence("btn5")'>Adicionar 50€ </button>
+         <button id="btn5"   class="butao-1"  onclick='addBalence("btn5")' disabled>Adicionar 50€ </button>
          </div>
         
         </div>

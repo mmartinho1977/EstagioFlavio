@@ -22,16 +22,34 @@ function addBalence(btn){
         
 }
 
-/* function addBalence(btn){
 
-    if (confirm("Deseja confirmar essa operação?")) {
+function enableBalanceButton(e){
+    
+  btn1=document.getElementById("btn1");
+  btn2=document.getElementById("btn2");
+  btn3=document.getElementById("btn3");
+  btn4=document.getElementById("btn4");
+  btn5=document.getElementById("btn5");
 
-        return true;
-
-    } else {
-
-        return false;
-
+  if(e.checked){
+    
+        btn1.disabled=false;
+        btn2.disabled=false;
+        btn3.disabled=false;
+        btn4.disabled=false;
+        btn5.disabled=false;
+    }
+    else{
+        btn1.disabled=true;
+        btn2.disabled=true;
+        btn3.disabled=true;
+        btn4.disabled=true;
+        btn5.disabled=true;
     }
 
-} */
+}
+
+
+
+
+

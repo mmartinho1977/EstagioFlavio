@@ -87,3 +87,20 @@ hr{
     font-size:20px;
 
 }
+.dia{
+    border:5px solid rgb(0, 0, 0, 50%);
+    border-radius: 10px;
+    height: 50vh;
+    background-color: white;
+    min-width: 260px;
+    margin-left: 40px;
+    height: 450px;
+}
+
+#foto{
+    width: 235px;
+    height: 150px;
+    position: relative;
+    top:10px;
+    left:-13px;
+}

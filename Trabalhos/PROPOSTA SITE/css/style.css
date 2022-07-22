@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* scroll */
+body::-webkit-scrollbar {
+    width: 8px;
+}
+body::-webkit-scrollbar-track {
+    background: rgb(194, 194, 194);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(46, 46, 46);     
+}
+
+/* nav */
+.tamanho{
+width: 100px;
+}
+
+.tudo-nav{
+    background-color: rgb(33, 37, 41);
+    padding: 10px 0px 0px 0px;
+    z-index: 1;
+    height: 80px;
+    display: flex;
+    width: 105%;
+    position: fixed;
+}
+.logo{
+    width: 220px;
+}
+.nome-logo{
+    color: white;
+    font-family: 'Cormorant SC', serif;
+    font-size: 23px;
+}
+.links-nav{
+    position: relative;
+    top:10px;
+}
+#links{
+    position: relative;
+    font-size: 25px;
+    margin-left: 15px;
+    color: rgb(196, 196, 196);
+    font-family: 'Cormorant SC', serif;
+    text-decoration: underline rgb(28, 28, 28)
+}
+/* main */
+.main2{
+    position: relative;
+    top: 70px;
+}
+/* slide */
+.slide{
+border: 0;
+position: relative;
+top: 70px;
+}
+.text-slide{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    position: relative;
+    top:-1000px;
+}
+/* sobre-empresa */
+.sobre-empresa{
+
+    background: linear-gradient( 125deg,rgb(52, 52, 52), black);
+    width: 100%;
+    height: 115vh;
+    overflow:scroll;
+}
+
+#titulo{
+    text-align: center;
+    padding: 100px 0px 50px 0px;
+    font-size: 45px;
+}
+#titulo2{
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    font-size: 45px;
+}
+
+.contexto{
+    color: white;
+    margin: 0px 100px 0px 100px;
+
+}
+.sobre-empresa::-webkit-scrollbar {
+    width: 0px;
+}
+.sobre-empresa::-webkit-scrollbar-track {
+    background: rgb(194, 194, 194);
+}
+.sobre-empresa::-webkit-scrollbar-thumb {
+    background-color: rgb(46, 46, 46);     
+}
+/* galeria */
+.galeria{
+    background-color: rgb(216, 216, 216);
+    width: 100%;
+}
+.project-item {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 25px;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .project-item img {
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+  }
+  .project-item:hover img {
+    transform: scale(1.1);
+  }
+  .project-item:hover .project-overlay {
+    opacity: 1;
+  }
+  .project-overlay {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+  }
+  .project-overlay h1 {
+    color: #ffffff;
+    margin: 0;
+  }
+  .project-overlay h3 {
+    color: #d9d9d9;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    margin-top: 0;
+  }
+  .img-responsive{
+   width: 500px;
+  }
+  .image-popup{
+    width: 500px;
+  }
+  .project-item:hover .project-overlay {
+    opacity: 1;
+  }
+  .project-info {
+    padding: 12em 0;
+  }
+  @media (max-width: 980px) {
+    .project-info {
+        padding: 4em 0;
+      }
+  }
+  @media (max-width: 767px) {
+    .project-info {
+        padding: 10em 0;
+      }
+    
+  }
+  @media (max-width: 580px) {
+    .project-info {
+        padding: 5em 0;
+      }
+  }
+/* suporte */
+.suporte{
+    background-color: rgb(28, 138, 216);
+    width: 100%;
+}
+.mandar-email{
+    padding: 30px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    min-width:400px ;
+    margin-bottom: 30px;
+}
+.mapa{
+    height: 500px;
+    min-width:400px ;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+/* rodape */
+.rodapé{
+    background-color: rgb(49, 49, 49);
+    width: 100%;
+    height: 40vh;
+}
+.texto-rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+}
+#titulo3{
+    font-size: 27px;
+    color: white;
+    font-family: 'Cormorant SC', serif; 
+}
+#redes{
+    margin-right: 10px;
+}
+@media (max-width: 760px) {
+    .rodapé{
+        background-color: rgb(49, 49, 49);
+        width: 100%;
+        height: 100vh;
+    }
+}

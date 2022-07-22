@@ -100,8 +100,8 @@ button{
     width: 235px;
     height: 150px;
     position: relative;
-    top:10px;
-    left:-13px;
+    padding: 10px;
+    left: -5px;
 }
 
 #mini-titulo{
@@ -110,7 +110,7 @@ button{
     border-bottom: 1px solid black;
 }
 
-#botao{
+.botao{
     position: relative;
     top:0px;
     width: 100%;
@@ -120,7 +120,7 @@ button{
     text-decoration: none;
     padding: 5px 70px 5px 76px;
 }
-#botao:hover{
+.botao:hover{
     position: relative;
     top:0px;
     width: 100%;
@@ -131,7 +131,7 @@ button{
     padding: 5px 70px 5px 76px;
     transition: 0.5s;
 }
-#botao-reservar{   
+.botao-reservar{   
      position: relative;
     top:10px;
     width: 100%;
@@ -141,7 +141,7 @@ button{
     text-decoration: none;
     padding: 5px 76px 5px 76px;
 }
-#botao-reservar:hover{   
+.botao-reservar:hover{   
     position: relative;
    top:10px;
    width: 100%;

@@ -1,11 +1,9 @@
 #enviar{
-    position: relative;
-    left:50%;
-    top:100px;
+
     padding: 15px 30px 15px 30px;
     border: 0px;
-    background-color: rgba(57, 255, 202, 0.538);
-    color: rgb(2, 162, 167);
+    background-color: rgba(0, 0, 0, 0.538);
+    color: rgb(255, 255, 255);
     cursor: pointer;
     font-size: 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;

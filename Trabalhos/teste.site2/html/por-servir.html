@@ -5,14 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="../css/por-servir.css">
+    <script src="../js/refeicao.js"></script>
+    <script src="../js/por-servir.js"></script>
+    <script src="../js/comprar-senha.js"></script>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-<script src="../js/por-servir.js"></script>
+
 </head>
 <body>
     <div class=" nav">
@@ -55,10 +60,20 @@
       <div class="direita">
 
         <div class="fundo">
+          
+           
 
             <div id="senhas_titulo">Senhas Marcadas</div> 
             <hr>
             <br>
+            <div class="organizar-dia row">
+            <div class="organizar-dia row" id="carts"></div>
+            <div class="organizar-dia row" id="carts2"></div>
+            <div class="organizar-dia row" id="carts3"></div>
+            <div class="organizar-dia row" id="carts4"></div>
+            <div class="organizar-dia row" id="carts5"></div>
+
+        </div>
             <div class="mini_titulo">Sem Senhas reservadas ainda!</div>
             <br>
             <a href="refeicao.html"><button class="reservar_senha">Reserve aqui as suas senhas!</button></a>
@@ -67,6 +82,41 @@
             </div>
       </div>
 
-      <script> document.getElementById("saldo").textContent=localStorage.getItem("Balance") + "€";</script>
+      <script> 
+      document.getElementById("saldo").textContent=localStorage.getItem("Balance") + "€";
+       div=document.getElementById("carts");
+       div.innerHTML='<div class="dia col-sm-2"> <img id="foto" src="'+localStorage.getItem("picture")+
+        '" alt="a" >   <br> <br>  <p id="mini-titulo">'+localStorage.getItem("day")+
+        '</p> <p id="texto"><b>Prato principal:</b> '+localStorage.getItem("food")+
+        '</p> <p id="texto"><b>Bebida:</b> '+localStorage.getItem("drink")+
+        '</p> <p id="texto"><b>sobremesa:</b>'+localStorage.getItem("desert")+
+        '</p> <a href="1segunda.html" class="botao">Ver prato</a></div>'
+        
+        div2=document.getElementById("carts2");
+       div2.innerHTML='<div class="dia col-sm-2"> <img id="foto" src="'+ 
+    
+     localStorage.getItem("picture2")+
+        '" alt="a" >   <br> <br>  <p id="mini-titulo">'+localStorage.getItem("day2")+
+        '</p> <p id="texto"><b>Prato principal:</b> '+localStorage.getItem("food2")+
+        '</p> <p id="texto"><b>Bebida:</b> '+localStorage.getItem("drink2")+
+        '</p> <p id="texto"><b>sobremesa:</b>'+localStorage.getItem("desert2")+
+        '</p> <a href="1segunda.html" class="botao">Ver prato</a></div>'
+      </script>
 </body>
 </html>
+
+<!-- <div class="dia col-sm-2">
+                
+    <img id="foto" src="../imagens/1foto.webp" alt="" >  
+    <br>
+    <br> 
+   <p id="mini-titulo">Segunda-Feira</p> 
+   <p id="texto"><b>Prato principal:</b>  qwertyuiop  asdfghjkl</p> 
+   <p id="texto"><b>Bebida:</b> agua com limao</p>
+   <p id="texto"><b>sobremesa:</b> cheesecake</p>
+   <a href="1segunda.html" class="botao">Ver prato</a>
+
+   <a href="por-servir.html" class="botao-reservar" onclick="reservation('1foto.webp','Segunda-Feira','qwertyuiop  asdfghjkl','agua com limao', 'cheesecake')">reservar </a>
+   
+
+</div> -->

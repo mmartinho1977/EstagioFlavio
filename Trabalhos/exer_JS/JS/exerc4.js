@@ -1,6 +1,4 @@
-  
-  const d = new Date(2018, 11, 24, 10, 33, 30, 0);
-    document.getElementById("demo").innerHTML = d;
-    
-
+alert(window.status);
+window.status= "janeiro de 2022";
+alert(window.status);
     
